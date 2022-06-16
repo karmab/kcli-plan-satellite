@@ -1,0 +1,16 @@
+{{ cluster }}:
+ image: {{ image }}
+ domain: {{ domain }}
+ rhnregister: true
+ memory: {{ memory }}
+ reservedns: {{ reservedns }}
+ reservehost: {{ not reservedns }}
+ numcpus: {{ numcpus }}
+ nets: 
+  - {{ network }}
+ disks: {{ disks }}
+ pool: {{ pool }}
+ files:
+ - scripts
+ scripts: 
+ - deploy.sh

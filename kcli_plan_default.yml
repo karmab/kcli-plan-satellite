@@ -1,0 +1,15 @@
+cluster: satellite
+domain: karmalabs.com
+admin_user: admin
+admin_password: unix1234
+organization: Karmalabs
+location: Madrid
+image: rhel7
+version: "6.10"
+pool: default
+network: default
+reservedns: false
+memory: 16384
+numcpus: 8
+disks:
+- 100

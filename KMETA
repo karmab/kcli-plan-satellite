@@ -1,0 +1,4 @@
+- name: satellte
+  file: kcli_plan.yml
+  description: Deploy satellite
+  numvms: 1
